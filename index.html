@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srinath - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/online-resume.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myimage.png" alt="Srinath N S S" width="80" >
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Srinath N S S">SRINATH N S S</h1>
+
+          <p class="title">Web & Software developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:srinath.cs20@bitsathy.ac.in" class="contact-link">srinath.cs20@bitsathy.ac.in</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917010864817" class="contact-link">+91 70108 64817</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 29, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gandhipuram, Coimbatore-641012</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/srinathkng.kng/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Srinath-Kng" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/srinath_kng/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="/assets/files/Updated Resume.pdf" class="social-link" download="Resume">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Web Developer and Student from Coimbatore, TamilNadu, Studying Computer Science and Engineering.
+             I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I am looking for an entry-level position  to kickstart
+            my career in the software field. Secure a responsible
+            career opportunity to fully utilize my training and skills,
+            while making a significant contribution to the success
+            of the company.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Currently Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/webdesign.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The creation of a website with a unique design and high usability.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/webdevelopment.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Development of websites on the time.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/mobilephone.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Development of applications for iOS and Android using Flutter.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ui.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Design of user interfaces for websites and applications.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Team members</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/massicon.png" alt="Vigneshwaran" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title >Vigneshwaran C</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Vigneshwaran is a very good friend of mine. He is a very good programmer and a good friend.
+                    Who basically works on web development and mobile app development. He designs the UI/UX of the website.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/massm.png" alt="Aswath C" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aswath C</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Aswath is my Programming Buddy. He is a very good programmer and helps me to undertstand data structures.
+                    I have also works with him on a project.He works on the Backend Side of the Webpage. 
+
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+<!---->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+<!---->
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/massicon.png" alt="Vigneshwaran C" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Vigneshwaran C</h4>
+
+              <time datetime="None">CODE HARD!!!</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tech Stack</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://devdocs.io/c/">
+                <img src="./assets/images/C.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://devdocs.io/cpp/">
+                <img src="./assets/images/C++.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                <img src="./assets/images/html.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                <img src="./assets/images/css.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                <img src="./assets/images/javascript.svg" alt="logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://docs.flutter.dev/">
+                <img src="./assets/images/flutter.svg" alt="logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-sharp"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.E (CSE)</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                I am Currently Pursuing my B.E in Computer Science and Engineering in Bannari Amman Institute of technology and I am in my 3<sup>rd</sup> year.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SSLC(10<sup>TH</sup>)</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                I have completed my SSLC in Suguna Rip V Matricualtion Higher Secondary School and secured 94.4🤔
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HSC(12<sup>TH</sup>)</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                I had took Computer science as my main subject in Higher secondary and French as my first language and Secured 91.5🤞
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-sharp"></ion-icon>
+            </div>
+
+            <h3 class="h3">Co-curricular Activities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Paper-Presentation</h4>
+
+              <span>(May 7<sup>th</sup> - May 9<sup>th</sup>)</span>
+
+              <p class="timeline-text">
+                Semi-Finalist of a Paper presentation in a National Level Symposium (ELECTROFOCUS"22) on the topic of "VEHICLE THEFT DETECTION" in Madras Institute of Technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project-Presentation</h4>
+
+              <span>(May 7<sup>th</sup> - May 9<sup>th</sup>)</span>
+
+              <p class="timeline-text">
+                One among the top 5 Finalist of a Project presentation in a National Level Symposium (ELECTROFOCUS"22) on the topic of "LIFE-GUARD GLOVES" in Madras Institute of Technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project-Presentation</h4>
+
+              <span>(July 15<sup>th</sup> - July 17<sup>th</sup>)</span>
+
+              <p class="timeline-text">
+                Attended the Final Round of a Project Competiton in a National Level Symposium (IDEAFIND+) on the topic of "VEHICLE THEFT DETECTION" in Vellore Institute of Technology.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical-Competition</h4>
+
+              <span>(July 20<sup>th</sup> - October 20<sup>th</sup>)</span>
+
+              <p class="timeline-text">
+                Completed various Hackathon and Technical Competitions in various platforms like Talently ,Examly and Codechef.And Various Dare2Compete Competitions.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="walk-sharp"></ion-icon>
+            </div>
+
+            <h3 class="h3">Extra-curricular Activities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Participated in Yoga Traning Program "Niyama 2k21" at PSG College of Arts and Science.</h4>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Active member and organized several events in NSS as a volunteer.</h4>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Active Member in Great Minds Club and CodeChef BIT.</h4>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Organized "Quiz Bee" a Quiz Competiton on a National Level Symposium named <a href="https://impellz.bitsathy.ac.in/" alt="Event">"IMPELLZ'23"</a></h4>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Basics of C and C++</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Technology using (HTML , CSS and JS)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Basics of MySql</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Basics of Flutter and Figma</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Team and Time Management</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Mini Projects</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Mobile Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Mini Projects</button>
+              </li>
+              
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://srinath-kng.github.io/Basic_Chess_game-/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Chess_game_project_collab.png" alt="Simple_chess_game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simple-Chess Game Using JS</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="https://srinath-kng.github.io/BIT_HOSTEL_LAUNDRY_IMAGEWEBPAGE/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Bit_h.png" alt="Simple_chess_game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bit Hostel Laundry</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mini projects">
+              <a href="https://github.com/Srinath-Kng/FACE_DEETECTION_AT_REALTIME_USING_OPENCV">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Python_openCv.png" alt="Python" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Detection in RealTime using OpenCV</h3>
+
+                <p class="project-category">Mini Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://srinath-kng.github.io/Scientific_Calculator/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resized_calc.png" alt="Simple_Calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simple Calculator using HTML, CSS and JavaScript</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mini projects">
+              <a href="https://github.com/Srinath-Kng/Expense_Tracker">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Expense_Tracker.png" alt="expense-tracker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Expense Tracker using React-Js</h3>
+
+                <p class="project-category">Mini Projects</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.120053236631!2d76.95865272201809!3d11.017605236819332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85855910aed83%3A0x80875de5cd370a9d!2sGandhipuram%2C%20Tamil%20Nadu%20641012!5e0!3m2!1sen!2sin!4v1677211688840!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Personal Information</h3>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hobbies</h4>
+              <p class="service-item-text">
+                Coin Collecting, Listening Music, Subtitle Making and Watching Movies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Languages Known</h4>
+              <p class="service-item-text">
+                Tamil (R-W-S)<br>
+                English (R-W-S)<br>
+                French (R-W)<br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mother Tongue</h4>
+              <p class="service-item-text">
+                Kannada
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Date of Birth</h4>
+              <p class="service-item-text">
+                29th April 2003
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Alternate Email</h4>
+              <p class="service-item-text">
+                Asksrinathnss@gmail.com 
+              </p>
+
+            </li>
+            
+
+          </ol>
+
+
+
+          
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
